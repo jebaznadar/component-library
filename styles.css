@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500&family=Montserrat:wght@400;700&display=swap');
+body
+{
+    font-family: 'EB Garamond', serif;
+  
+}
+:root{
+    --primarycolor: #EA580C ;
+    --graycolor: #737373;
+    --off-white: #e5e5e5 ;
+
+
+}
+HR{
+    margin: 3rem 0rem;
+}
+.container{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.container-center{
+    max-width: 600px;
+    margin: auto;
+}
+.container-MIDDLE{
+    max-width: 400px;
+    margin: auto;
+}
+
+.link {
+text-decoration: none;
+padding: 0.5rem 0.2rem ;
+}
+.link-primary{
+    background-color: var(--primarycolor);
+    border-radius: 0.5rem;
+    color: white;
+    
+
+}
+.blog{
+
+}
+.link-secondary{
+    border-radius: 0.5rem;
+   color: var(--primarycolor);
+   border: 1px solid var(--primarycolor); 
+}
+.link-teritiary {
+    border-radius: 0.5rem;
+    color: var(--primarycolor);
+}
+.NON-BULLET{
+    list-style: NONE;
+}
+.LIST-ITEM-INLINE{
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+.navigation{
+    background-color: var(--primarycolor);
+    color: white;
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+.navigation .link-active {
+    font-weight: bold;
+  }
+.navigation .navpills{
+    text-align: right;
+}
+.navigation .link{
+    color: white;
+}
+.hero{
+    padding: 2rem;
+}
+.hero .hero-img{
+max-width: 400px;
+display: block;
+margin: auto;
+}
+.hero .hero-heading{
+    color:var(--graycolor);
+ text-align: center;
+ font-size: xx-large;    
+ padding: 1rem;
+}
+.hero .hero-heading .heading-inverted{
+    color: var(--primarycolor);
+}
+.section h1 {
+    text-align: center;
+}
+
+.ow{
+    background-color: var(--off-white);
+}
+
+section{
+    padding: 2rem;
+    margin: 2rem 0;
+    border-radius: 1rem;
+    text-align: center;
+
+}
+.footer{
+    background-color: var(--primarycolor);
+    text-align: center;
+    padding: 2rem 1rem;
+    color: white;
+    border-top-right-radius: 1rem;
+}
+.footer .footer-heading{
+    font-size: large;
+    font-weight: bold;
+}
+.footer .link{
+color: white;
+}
+.footer ul{
+    padding-inline-start: 0px;
+    
+}
+.showcase-list{
+    
+}
+.SIZE{
+    font-size: larger;
+}
+.CODE{
+    padding: 0.2em 3em;
+    margin: auto;
+    font-size: 100%;
+    background-color: rgba(27,31,35,.05);
+    border-radius: 2px;
+    border: 1px solid gray;
+
+}
+.GRAYBOX{
+    box-sizing: 1rem;
+    border-color: #737373;
+    margin-left: 40px;
+   
+}
+.NOTE-SECTION{
+    padding: 20px 30px;
+    background-color: #eff7f9;
+    border: 1px solid #9cd9ff;
+    border-radius: 5px;
+    font-size: 16px !important;
+    line-height: 1.7;
+    font-weight: 400;
+    margin-top: 30px;
+}
+.P{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
